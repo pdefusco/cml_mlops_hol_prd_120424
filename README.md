@@ -45,6 +45,9 @@ Abre el script "03_api_redeployment.py" y lo ejecute. No se requieren cambios de
 
 Similar al script anterior, en este script se implementa una clase Python personalizada para gestionar el despliegue del modelo en producción. En particular, cuando un API Endpoint no puede manejar la carga de solicitudes entrantes, se puede implementar un nuevo contenedor con recursos adicionales. Esta es una práctica común en CML para gestionar modelos en producción, y la clase en el script proporciona un ejemplo simplificado de cómo hacerlo.
 
+![alt text](img/depl.png)
+
+
 ### Resumen
 
 En esta sesión, utilizaste Sesiones de CML, MLFlow y la API de CML para desplegar un modelo de aprendizaje automático y procesos básicos de MLOps. En conclusion:
